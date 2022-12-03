@@ -10,10 +10,124 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="quiz"></div>
-        <button id="submit">Submit Quiz</button>
-        <div id="results"></div>
+    <ul class="quiz">
+        <li>
+            <h4>What operating system would you like??</h4>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="Apple" />
+                        <span>Apple</span>
+                        
+                    </label>
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="HP" /><span
+                            >HP</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="Asus" /><span
+                            >Asus</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="Lenovo" /><span
+                            >Lenovo</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="MSFT" /><span
+                            >Microsoft</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="Razer" /><span
+                            >Razer</span
+                        ></label
+                    >
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h4>What is your budget??</h4>
+            <ul class="choices">
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="A" /><span
+                            >Hella broke ($500-$1000)</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="B" /><span
+                            >Pretty broke ($1001-$1500)</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="C" /><span
+                            >Daddy's money ($2000++)</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="D" /><span
+                            >4</span
+                        ></label
+                    >
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h4>How many letters are there in "A"?</h4>
+            <ul class="choices">
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="A" /><span
+                            >2</span
+                        >
+                    </label>
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="B" /><span
+                            >1</span
+                        >
+                    </label>
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="C" /><span
+                            >3</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="D" /><span
+                            >4</span
+                        ></label
+                    >
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <button class="view-results" onclick="returnScore()">View Results</button>
+    <span id="myresults" class="my-results">My results will appear here</span>
+     
     </div>
    
 
