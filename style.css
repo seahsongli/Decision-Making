@@ -1,0 +1,15 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    gap:15px 15px;
+    display:flex;
+    flex-direction: column;
+    gap:15px 15px;
+}
+
+.question{
+    font-size:25;
+    font-weight: bold;
+}

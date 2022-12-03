@@ -9,8 +9,7 @@ const myQuestions = [
         a: "Windows",
         b: "Mac",
         c: "Linux"
-      },
-      correctAnswer: "c"
+      }
     },
     {
       question: "What is your budget?",
@@ -19,7 +18,6 @@ const myQuestions = [
         b: "Pretty broke ($1001-$1500)",
         c: "Daddy's money ($2000++)"
       },
-      correctAnswer: "c"
     },
     {
       question: "Do you need it for Gaming?",
